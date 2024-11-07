@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "takvim",
+    "slug": "takvim",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icons/playstore.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icons/playstore.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.nisaaltunbas.takvim"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/icons/playstore.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "73669ae7-1f14-4cc4-9445-bdf27ecf01da"
+      }
+    }
+  }
+}
